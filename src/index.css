@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.beer-card {
+  border: 20px solid black;
+  border-radius: 5px;
+  margin: 25px auto;
+  width: 60%;
+  display: flex;
+  padding: 20px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+.image {
+  display: inline;
+  align-content: flex-start;
+}
+
+.info {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  letter-spacing: 8px;
+  word-spacing: 20px;
+  font-size: 5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.beer-title {
+  text-align: left;
+  margin-right: 29px;
+  font-size: 2.2rem;
+  color: orange;
+}
+
+.abv, .ibu {
+  margin: 20px;
+  border: 3px solid red;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  background-color: red;
+  font-weight: 900;
+}
+
+.description {
+  width: 80%;
+  margin: auto;
+}
+
+.info {
+  width: 80%;
+  margin: auto;
+}
+
+.tags {
+  width: 80%;
+  margin: auto;
+}
+
+.dry-hopped {
+  background-color: rgb(166, 233, 166);
+}
+
+.dry-hop-legend-text {
+  text-align: center;
+  color: rgb(78, 145, 78);
+  font-size: 1.8rem;
+}
+
+.dry-hop-legend-icon {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-color: rgb(78, 145, 78);
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.lactose {
+  font-size: 2rem;
+  text-align: center;
+  color: red;
+}
+
+.none {
+  display: none;
+}
